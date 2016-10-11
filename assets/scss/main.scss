@@ -1,0 +1,44 @@
+/* -----------------------------------------
+Stylesheet for Al Ijarah Finance Indonesia Microsite
+
+version: 1.0
+author : Fathan Rohman
+email  : karir.fathan@gmail.com
+website: http://alijarahindonesia.com/
+--------------------------------------------*/
+
+/* -------------------
+   ---- PLUGIN ---
+   ------------------- */
+
+@import "plugin/bootstrap.min";
+@import "plugin/font-awesome";
+@import "plugin/animate.min";
+@import "plugin/owl.carousel";
+
+/* -------------------
+   ---- GLOBAL ---
+   ------------------- */
+
+@import "global/fonts";
+@import "global/variabel";
+@import "global/mixins";
+@import "global/extend_inheritance";
+@import "global/global";
+@import "global/button";
+@import "global/color";
+@import "global/background";
+@import "global/header";
+@import "global/footer";
+
+/* -------------------
+   ---- SECTION ---
+   ------------------- */
+
+@import "section/bootstrap";
+
+/* -------------------
+   ---- RESPONSIVE ---
+   ------------------- */
+
+@import "responsive/main-responsive";
