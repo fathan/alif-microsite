@@ -9,6 +9,11 @@ a{
     @include transition(0.4s);
 }
 
+.box-leave{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
 .section{
     padding: 50px 0px;
 
@@ -49,37 +54,55 @@ a{
 // BACK TO TOP
 #back-to-top {
     position: fixed;
-    bottom: 30px;
-    right: 5%;
+    bottom: 4%;
+    right: 2%;
     z-index: 9999;
-    width: 37px;
-    height: 37px;
+    width: 70px;
+    height: 70px;
     text-align: center;
     line-height: 30px;
-    background: #8cc551;
+    background: rgba(68, 68, 68, 0.72);
     color: #FFFFFF;
     cursor: pointer;
-    border: 1px solid #8cc551;
-    border-radius: 0px;
+    border: 1px solid rgba(68, 68, 68, 0.72);
+    border-radius: 50%;
     text-decoration: none;
     transition: opacity 0.2s ease-out;
     opacity: 0;
-    font-size: 20px;
-    padding: 0px;
+    font-size: 3em;
+    padding: 10px 0px;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
-}
-
-#back-to-top:hover {
-    background: #FFFFFF;
-    color: #8cc551;
-    @include transition(0.4s);
+    
+    &:hover {
+        background: #333333;
+        color: #FFFFFF;
+        @include transition(0.4s);
+    }
 }
 
 #back-to-top.show {
     opacity: 1;
+}
+
+.newsletter{
+    background: url(../images/gallery/bg-footer.png) bottom center repeat-x;
+
+    h2{
+        margin-top: -20px;
+        margin-bottom: 20px;
+        background: -webkit-linear-gradient(left,$color-alif-purple, $color-alif-green);
+        color: $color-alif-purple;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        height: 40px;
+    }
+
+    .input-group{
+        margin-bottom: 100px;
+    }
 }
 
 

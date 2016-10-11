@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Al Ijarah Indonesia Finance</title>
+	<title>Alif Microsite</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -54,10 +54,62 @@
 <body>
 	<div class="site-wrapper">
 		<?php include 'shareds/header.php'; ?>
-		<section class="section">
+		<section class="section promotion bg-gray-light">
 			<div class="container">
 				<div class="row">
-					
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+						<div class="image-1">
+							<img src="assets/images/gallery/placehold_360_430.png" alt="">
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+						<div class="box-leave">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<div class="image-2">
+									<img src="assets/images/gallery/placehold_360_200.png" alt="">
+								</div>
+							</div>
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<div class="image-2">
+									<img src="assets/images/gallery/placehold_360_200.png" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+						<div class="box-leave">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<div class="image-2">
+									<img src="assets/images/gallery/placehold_360_200.png" alt="">
+								</div>
+							</div>
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<div class="image-2">
+									<img src="assets/images/gallery/placehold_360_200.png" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section newsletter">
+			<div class="container">
+				<div class="row">
+					<div class="text-center">
+						<h2>Berlangganan informasi terbaru dari kami?</h2>
+						<div class="col-md-6 col-md-offset-3">
+							<div class="input-group">
+								<input type="text" class="form-control input-lg" placeholder="Masukan email anda disini...">
+								<span class="input-group-btn">
+									<button class="btn btn-lg btn-success" type="button">
+										<i class="fa fa-send"></i>
+										Kirim
+									</button>
+								</span>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>

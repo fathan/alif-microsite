@@ -1,0 +1,58 @@
+.header-top{
+	@extend .box-wrapper;
+	background: #732075;
+  color: #FFFFFF;
+  padding: 5px;
+  margin-bottom: -5px;
+  font-size: 11px;
+}
+
+.navbar-desktop{
+	.navbar{
+		@include border-radius(0px);
+		border: 0px;
+	}
+
+	.mr-15{
+		margin-right: 15px;
+	}
+
+	.dropdown-menu > li > a{
+		padding: 10px 20px;
+	}
+
+	.navbar-form{
+		.input-group > .form-control{
+			width: 80%;
+		}
+
+		.input-group-addon{
+			background: $color-white;
+			border:1px solid $color-white;
+		}
+
+		.form-control{
+			background: $color-white;
+			border:1px solid $color-white;-webkit-box-shadow: inset 0 1px 1px rgb(255, 255, 255);
+			box-shadow: inset 0 1px 1px rgb(255, 255, 255);
+			-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+			-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+			transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+		}
+	}
+
+	.navbar-default{
+		.navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover{
+			background: transparent;
+			color: $color-white;
+		}
+
+		.navbar-brand{
+			color: $color-white;
+		}
+
+		.navbar-nav > li > a{
+			color: $color-white;
+		}
+	}
+}
