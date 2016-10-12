@@ -26,89 +26,77 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-3">
+						<div class="image-logo">
+							<img src="assets/images/logo/logo.png" alt="">
+						</div>
+					</div>
+					<div class="col-md-3">
 						<div class="title-top">
-							About us
+							Dealer/Merchant
 						</div>
 						<ul>
 							<li>
 								<a href="#">
-									Sekilas alif
+									Bagaimana menjadi dealer?
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									Video Profile
+									ketentuan dealer
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									Struktur Organisasi
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									Visi dan Misi
+									Persyaratan anggota
 								</a>
 							</li>
 						</ul>
 					</div>
 					<div class="col-md-3">
 						<div class="title-top">
-							Finance
+							Agent
 						</div>
 						<ul>
 							<li>
 								<a href="#">
-									Kebijakan kerahasiaan
+									Bagaimana menjadi agent?
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									Syarat dan Kondisi
+									Persyaratan agent
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Ketentuan agent
 								</a>
 							</li>
 						</ul>
 					</div>
 					<div class="col-md-3">
 						<div class="title-top">
-							Links
+							Lokasi Kami
 						</div>
 						<ul>
 							<li>
 								<a href="#">
-									Jaringan
+									Menara Palma lt. 25
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									Karir
+									Jl. H. R. Rasuna Said Blok X2 Kav 6
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									F.A.Q
-								</a>
-							</li>
-						</ul>
-					</div>
-					<div class="col-md-3">
-						<div class="title-top">
-							Links
-						</div>
-						<ul>
-							<li>
-								<a href="#">
-									Jaringan
+									Kuningan, Jakarta Selatan
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									Karir
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									F.A.Q
+									Telp: 021-57957552/7553
 								</a>
 							</li>
 						</ul>

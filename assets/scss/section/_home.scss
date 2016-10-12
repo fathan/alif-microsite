@@ -1,3 +1,60 @@
+.selection-category{
+	@extend .box-wrapper;
+
+	.box-category{
+		.header{
+			width: 100%;
+			background: $color-alif-purple;
+			padding: 15px;
+			text-align: center;
+
+			.title{
+				font-size: 20px;
+				color: $color-white;
+				text-transform: uppercase;	
+				font-family: open-sans-bold;
+			}
+		}
+
+		.body{
+			width: 100%;
+			background: $color-white;
+
+			.list-category{
+				text-decoration: none;
+				width: 25%;
+				float: left;
+				border: 1px solid $color-alif-purple;
+				text-align: center;
+				cursor: pointer;
+
+				&:hover{
+					background: #942896;
+
+					.icon, .name{
+						color: $color-white;
+					}
+				}
+
+				.icon{
+					display: table;
+					margin: auto;
+					font-size: 5em;
+					color: $color-gray-dark;
+				}
+
+				.name{
+					font-size: 16px;
+					text-transform: uppercase;
+					font-family: open-sans-light;
+					margin-bottom: 20px;
+					color: $color-gray-dark;
+				}
+			}
+		}
+	}
+}
+
 .promotion{
 	@extend .box-wrapper;
 

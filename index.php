@@ -54,7 +54,7 @@
 <body>
 	<div class="site-wrapper">
 		<?php include 'shareds/header.php'; ?>
-		<section class="section promotion bg-gray-light">
+		<section class="section promotion bg-white">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -88,6 +88,115 @@
 									<img src="assets/images/gallery/placehold_360_200.png" alt="">
 								</div>
 							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section selection-category bg-gray-light">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="box-category">
+							<div class="header">
+								<div class="title">
+									Kategori produk terbaru
+								</div>
+							</div>
+							<div class="body">
+								<a class="list-category">
+									<div class="icon">
+										<i class="fa fa-car"></i>
+									</div>
+									<div class="name">
+										Mobil
+									</div>
+								</a>
+								<a class="list-category">
+									<div class="icon">
+										<i class="fa fa-motorcycle"></i>
+									</div>
+									<div class="name">
+										Sepeda Motor
+									</div>
+								</a>
+								<a class="list-category">
+									<div class="icon">
+										<i class="fa fa-bed"></i>
+									</div>
+									<div class="name">
+										Furniture
+									</div>
+								</a>
+								<a class="list-category">
+									<div class="icon">
+										<i class="fa fa-desktop"></i>
+									</div>
+									<div class="name">
+										Elektronik
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section bg-white">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section latest-news-home bg-gray-light">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-12 col-xs-12">
+						<?php for ($i=0; $i < 2; $i++) { ?>
+							<div class="list-news-1">
+								<div class="image-big">
+									<img src="assets/images/gallery/placehold_390_200.png" alt="">
+								</div>
+								<div class="content">
+									<div class="title">
+										Judul info terbaru
+									</div>
+									<div class="timestamp">
+										21 jam yang lalu 
+									</div>
+								</div>
+							</div>
+						<?php } ?>
+					</div>
+					<div class="col-md-8 col-sm-12 col-xs-12">
+						<div class="box-leave">
+							<?php for ($i=0; $i < 8; $i++) { ?>
+								<div class="col-md-6">
+									<div class="list-news-2">
+										<div class="col-md-5">
+											<div class="image-small">
+												<img src="assets/images/gallery/placehold_120_100.png" alt="">
+											</div>
+										</div>
+										<div class="col-md-7">
+											<div class="content">
+												<div class="title">
+													Judul info terbaru
+												</div>
+												<div class="timestamp">
+													21 jam yang lalu 
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-12">
+										<hr>
+									</div>
+								</div>
+							<?php } ?>
 						</div>
 					</div>
 				</div>

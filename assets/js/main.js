@@ -14,7 +14,7 @@ $(document).ready(function () {
 	$('[data-toggle="tooltip"]').tooltip()
 	
 	// SCROLL TO FIXED
-	$('#header-microbiz').scrollToFixed();
+	$('#header-alif-microsite').scrollToFixed();
 
 	// SET HEIGHT CAROUSEL HOME
 	$('.carousel-home-body .item').each(function(){

@@ -6,14 +6,19 @@
           PT. Al Ijarah Finance Indonesia
         </div>
         <div class="pull-right">
-          info@alijarahindonesia.com | Hubungi Kami
+          <a href="mailto:info@alijarahindonesia.com">
+            info@alijarahindonesia.com
+          </a> |
+          <a href="/">
+            Hubungi Kami
+          </a> 
         </div>
       </div>
     </div>
   </div>
 </div>
 <div class="navbar-desktop">
-  <nav class="navbar navbar-default bg-alif-purple">
+  <nav class="navbar navbar-default bg-alif-purple" id="header-alif-microsite">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -21,7 +26,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">ALIF MICROSITE</a>
+        <a class="navbar-brand" href="/">ALIF MICROSITE</a>
       </div>
       <div class="navbar-collapse collapse" id="searchbar">
         <ul class="nav navbar-nav">
@@ -53,7 +58,7 @@
               <span class="input-group-addon" style="width:1%;">
                 <span class="glyphicon glyphicon-search"></span>
               </span>
-              <input class="form-control" name="search" placeholder="Masukan kata pencarian disini..." autocomplete="off" type="text">
+              <input class="form-control" name="search" placeholder="Masukan kata pencarian anda disini..." autocomplete="off" type="text">
             </div>
           </div>
         </form>
